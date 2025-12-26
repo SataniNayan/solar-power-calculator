@@ -1,0 +1,182 @@
+{
+  "Andhra Pradesh": {
+    "January": 24, "February": 26, "March": 29, "April": 33, "May": 36,
+    "June": 33, "July": 31, "August": 30, "September": 30, "October": 29,
+    "November": 26, "December": 24, "yearlyAvg": 29
+  },
+  "Arunachal Pradesh": {
+    "January": 10, "February": 12, "March": 15, "April": 18, "May": 20,
+    "June": 22, "July": 23, "August": 22, "September": 21, "October": 18,
+    "November": 14, "December": 11, "yearlyAvg": 17
+  },
+  "Assam": {
+    "January": 18, "February": 20, "March": 23, "April": 26, "May": 28,
+    "June": 29, "July": 29, "August": 29, "September": 28, "October": 26,
+    "November": 22, "December": 19, "yearlyAvg": 25
+  },
+  "Bihar": {
+    "January": 16, "February": 19, "March": 25, "April": 30, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 30, "October": 28,
+    "November": 22, "December": 17, "yearlyAvg": 26
+  },
+  "Chhattisgarh": {
+    "January": 20, "February": 23, "March": 28, "April": 32, "May": 35,
+    "June": 33, "July": 30, "August": 29, "September": 29, "October": 27,
+    "November": 23, "December": 20, "yearlyAvg": 28
+  },
+  "Goa": {
+    "January": 26, "February": 27, "March": 29, "April": 30, "May": 32,
+    "June": 29, "July": 28, "August": 28, "September": 28, "October": 29,
+    "November": 28, "December": 27, "yearlyAvg": 29
+  },
+  "Gujarat": {
+    "January": 20, "February": 23, "March": 28, "April": 32, "May": 35,
+    "June": 33, "July": 30, "August": 29, "September": 30, "October": 29,
+    "November": 25, "December": 21, "yearlyAvg": 28
+  },
+  "Haryana": {
+    "January": 14, "February": 17, "March": 23, "April": 30, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 29, "October": 26,
+    "November": 20, "December": 15, "yearlyAvg": 25
+  },
+  "Himachal Pradesh": {
+    "January": 5, "February": 7, "March": 12, "April": 17, "May": 20,
+    "June": 22, "July": 23, "August": 22, "September": 20, "October": 16,
+    "November": 10, "December": 6, "yearlyAvg": 15
+  },
+  "Jharkhand": {
+    "January": 18, "February": 21, "March": 26, "April": 31, "May": 34,
+    "June": 32, "July": 30, "August": 29, "September": 29, "October": 27,
+    "November": 22, "December": 18, "yearlyAvg": 26
+  },
+  "Karnataka": {
+    "January": 23, "February": 25, "March": 28, "April": 31, "May": 33,
+    "June": 29, "July": 28, "August": 28, "September": 28, "October": 27,
+    "November": 25, "December": 24, "yearlyAvg": 28
+  },
+  "Kerala": {
+    "January": 26, "February": 27, "March": 29, "April": 31, "May": 32,
+    "June": 29, "July": 28, "August": 28, "September": 28, "October": 28,
+    "November": 27, "December": 26, "yearlyAvg": 29
+  },
+  "Madhya Pradesh": {
+    "January": 18, "February": 21, "March": 26, "April": 31, "May": 35,
+    "June": 33, "July": 30, "August": 29, "September": 29, "October": 27,
+    "November": 22, "December": 18, "yearlyAvg": 27
+  },
+  "Maharashtra": {
+    "January": 22, "February": 24, "March": 28, "April": 32, "May": 34,
+    "June": 30, "July": 28, "August": 28, "September": 28, "October": 27,
+    "November": 25, "December": 23, "yearlyAvg": 28
+  },
+  "Manipur": {
+    "January": 15, "February": 17, "March": 20, "April": 23, "May": 25,
+    "June": 26, "July": 27, "August": 27, "September": 26, "October": 24,
+    "November": 20, "December": 16, "yearlyAvg": 22
+  },
+  "Meghalaya": {
+    "January": 12, "February": 14, "March": 17, "April": 20, "May": 22,
+    "June": 23, "July": 23, "August": 23, "September": 22, "October": 20,
+    "November": 16, "December": 13, "yearlyAvg": 19
+  },
+  "Mizoram": {
+    "January": 15, "February": 17, "March": 20, "April": 23, "May": 25,
+    "June": 26, "July": 26, "August": 26, "September": 25, "October": 23,
+    "November": 19, "December": 16, "yearlyAvg": 22
+  },
+  "Nagaland": {
+    "January": 12, "February": 14, "March": 18, "April": 22, "May": 24,
+    "June": 26, "July": 26, "August": 26, "September": 25, "October": 22,
+    "November": 17, "December": 13, "yearlyAvg": 21
+  },
+  "Odisha": {
+    "January": 22, "February": 25, "March": 29, "April": 33, "May": 36,
+    "June": 33, "July": 30, "August": 29, "September": 29, "October": 28,
+    "November": 25, "December": 22, "yearlyAvg": 29
+  },
+  "Punjab": {
+    "January": 13, "February": 16, "March": 22, "April": 29, "May": 33,
+    "June": 32, "July": 30, "August": 29, "September": 28, "October": 26,
+    "November": 20, "December": 14, "yearlyAvg": 24
+  },
+  "Rajasthan": {
+    "January": 15, "February": 18, "March": 25, "April": 32, "May": 38,
+    "June": 36, "July": 33, "August": 32, "September": 31, "October": 29,
+    "November": 22, "December": 16, "yearlyAvg": 29
+  },
+  "Sikkim": {
+    "January": 6, "February": 8, "March": 12, "April": 16, "May": 18,
+    "June": 20, "July": 21, "August": 21, "September": 20, "October": 16,
+    "November": 11, "December": 7, "yearlyAvg": 15
+  },
+  "Tamil Nadu": {
+    "January": 26, "February": 27, "March": 30, "April": 33, "May": 35,
+    "June": 33, "July": 32, "August": 32, "September": 31, "October": 30,
+    "November": 28, "December": 26, "yearlyAvg": 31
+  },
+  "Telangana": {
+    "January": 22, "February": 25, "March": 29, "April": 33, "May": 36,
+    "June": 34, "July": 31, "August": 30, "September": 30, "October": 29,
+    "November": 25, "December": 22, "yearlyAvg": 29
+  },
+  "Tripura": {
+    "January": 18, "February": 20, "March": 23, "April": 26, "May": 28,
+    "June": 29, "July": 29, "August": 29, "September": 28, "October": 26,
+    "November": 22, "December": 19, "yearlyAvg": 25
+  },
+  "Uttar Pradesh": {
+    "January": 15, "February": 18, "March": 24, "April": 30, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 29, "October": 27,
+    "November": 21, "December": 16, "yearlyAvg": 26
+  },
+  "Uttarakhand": {
+    "January": 10, "February": 12, "March": 16, "April": 21, "May": 24,
+    "June": 26, "July": 27, "August": 26, "September": 24, "October": 20,
+    "November": 15, "December": 11, "yearlyAvg": 19
+  },
+  "West Bengal": {
+    "January": 18, "February": 21, "March": 26, "April": 31, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 30, "October": 28,
+    "November": 23, "December": 19, "yearlyAvg": 27
+  },
+  "Andaman and Nicobar Islands": {
+    "January": 26, "February": 27, "March": 29, "April": 31, "May": 32,
+    "June": 30, "July": 29, "August": 29, "September": 29, "October": 29,
+    "November": 28, "December": 27, "yearlyAvg": 29
+  },
+  "Chandigarh": {
+    "January": 14, "February": 17, "March": 23, "April": 30, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 29, "October": 27,
+    "November": 21, "December": 15, "yearlyAvg": 25
+  },
+  "Dadra and Nagar Haveli and Daman and Diu": {
+    "January": 22, "February": 24, "March": 28, "April": 32, "May": 35,
+    "June": 33, "July": 30, "August": 29, "September": 29, "October": 28,
+    "November": 25, "December": 22, "yearlyAvg": 28
+  },
+  "Delhi": {
+    "January": 14, "February": 17, "March": 23, "April": 30, "May": 34,
+    "June": 33, "July": 31, "August": 30, "September": 29, "October": 27,
+    "November": 21, "December": 15, "yearlyAvg": 25
+  },
+  "Jammu and Kashmir": {
+    "January": 5, "February": 7, "March": 12, "April": 17, "May": 20,
+    "June": 22, "July": 24, "August": 23, "September": 21, "October": 16,
+    "November": 10, "December": 6, "yearlyAvg": 15
+  },
+  "Ladakh": {
+    "January": -5, "February": -3, "March": 2, "April": 7, "May": 12,
+    "June": 16, "July": 18, "August": 17, "September": 13, "October": 7,
+    "November": 0, "December": -4, "yearlyAvg": 8
+  },
+  "Lakshadweep": {
+    "January": 26, "February": 27, "March": 29, "April": 31, "May": 32,
+    "June": 30, "July": 29, "August": 29, "September": 29, "October": 29,
+    "November": 28, "December": 27, "yearlyAvg": 29
+  },
+  "Puducherry": {
+    "January": 26, "February": 27, "March": 30, "April": 33, "May": 35,
+    "June": 33, "July": 32, "August": 32, "September": 31, "October": 30,
+    "November": 28, "December": 26, "yearlyAvg": 31
+  }
+}

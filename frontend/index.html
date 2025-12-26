@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Solar Power Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+  <h1>Solar Power Calculator</h1>
+
+  <label>Land Area (m²)</label>
+  <input type="number" id="area" placeholder="Enter land area">
+
+<!-- Add inside <body> AFTER area input -->
+
+<h3>Select Land on Map</h3>
+<div id="map"></div>
+<p>Selected Area (m²): <span id="mapArea">0</span></p>
+
+<button class="calculate" onclick="calculateSolar()">Calculate</button>
+<button class="download" onclick="downloadPDF()">Download PDF</button>
+
+<!-- Google Maps API (ADD YOUR API KEY) -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZmiEqKAPANpHXxTh65qwgo1MFnC_fiFQ&libraries=drawing,geometry"></script>
+
+<script src="map.js"></script>
+<script src="report.js"></script>
+
+
+  <label>State</label>
+
+<select id="state">
+    <option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+<option value="Assam">Assam</option>
+<option value="Bihar">Bihar</option>
+<option value="Chhattisgarh">Chhattisgarh</option>
+<option value="Goa">Goa</option>
+<option value="Gujarat">Gujarat</option>
+<option value="Haryana">Haryana</option>
+<option value="Himachal Pradesh">Himachal Pradesh</option>
+<option value="Jharkhand">Jharkhand</option>
+<option value="Karnataka">Karnataka</option>
+<option value="Kerala">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Maharashtra">Maharashtra</option>
+<option value="Manipur">Manipur</option>
+<option value="Meghalaya">Meghalaya</option>
+<option value="Mizoram">Mizoram</option>
+<option value="Nagaland">Nagaland</option>
+<option value="Odisha">Odisha</option>
+<option value="Punjab">Punjab</option>
+<option value="Rajasthan">Rajasthan</option>
+<option value="Sikkim">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Telangana">Telangana</option>
+<option value="Tripura">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="West Bengal">West Bengal</option>
+
+<!-- Union Territories -->
+<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+<option value="Chandigarh">Chandigarh</option>
+<option value="Dadra and Nagar Haveli and Daman and Diu">
+  Dadra and Nagar Haveli and Daman and Diu
+</option>
+<option value="Delhi">Delhi</option>
+<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+<option value="Ladakh">Ladakh</option>
+<option value="Lakshadweep">Lakshadweep</option>
+<option value="Puducherry">Puducherry</option>
+
+  </select>
+
+  <label>Month</label>
+  <select id="month">
+    <option value="January">January</option>
+<option value="February">February</option>
+<option value="March">March</option>
+<option value="April">April</option>
+<option value="May">May</option>
+<option value="June">June</option>
+<option value="July">July</option>
+<option value="August">August</option>
+<option value="September">September</option>
+<option value="October">October</option>
+<option value="November">November</option>
+<option value="December">December</option>
+<option value="FULL_YEAR">Full Year</option>
+  </select>
+
+  
+
+  <h3>Result</h3>
+  <pre id="result">---</pre>
+
+  <script src="constants.js"></script>
+  <script src="calculations.js"></script>
+  <script src="app.js"></script>
+  
+<div class="assumptions">
+  <h3>Calculation Assumptions</h3>
+  <ul>
+    <li>Solar panel size considered: <strong>550 W</strong> per panel</li>
+    <li>Average panel area: <strong>2 m²</strong> per panel</li>
+    <li>Ideal operating temperature: <strong>25°C</strong></li>
+    <li>Efficiency loss: <strong>0.4% per °C</strong> above 25°C</li>
+    <li>Sunlight hours are based on <strong>state-wise average data</strong></li>
+    <li>Electricity rate assumed: <strong>₹7 per unit</strong></li>
+    <li>Installation cost assumed: <strong>₹50,000 per kW</strong></li>
+    <li>All results are <strong>estimates</strong> and may vary based on actual site conditions</li>
+  </ul>
+</div>
+<nav class="navbar">
+  <div class="logo">☀ Solar Calculator</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="companies.html">Companies</a></li>
+  </ul>
+</nav>
+
+
+</div>
+</body>
+</html>

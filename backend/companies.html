@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Solar Companies</title>
+  <link rel="stylesheet" href="companies.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Solar Installation Companies</h1>
+
+  <div class="company-card">
+    <h3>ABC Solar</h3>
+    <p>Ahmedabad, Gujarat</p>
+    <button onclick="openForm('ABC Solar')">Send Inquiry</button>
+  </div>
+
+  <div class="company-card">
+    <h3>SunPower Energy</h3>
+    <p>Surat, Gujarat</p>
+    <button onclick="openForm('SunPower Energy')">Send Inquiry</button>
+  </div>
+</div>
+
+<!-- Inquiry Modal -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <h3 id="companyName"></h3>
+
+    <input id="name" placeholder="Your Name">
+    <input id="mobile" placeholder="Mobile Number">
+    <input id="state" placeholder="State">
+    <input id="city" placeholder="City">
+
+    <button onclick="sendInquiry()">Submit</button>
+    <button class="close" onclick="closeForm()">Close</button>
+  </div>
+</div>
+
+<script src="companies.js"></script>
+</body>
+</html>
