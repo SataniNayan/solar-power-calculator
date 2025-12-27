@@ -1,8 +1,11 @@
 const companyList = document.getElementById("companyList");
 let selectedCompany = "";
 
+// ✅ BACKEND BASE URL (PRODUCTION)
+const API_BASE = "https://solar-power-calculator.onrender.com";
+
 // Load companies from backend
-fetch("http://localhost:5000/companies")
+fetch(`${API_BASE}/companies`)
   .then(res => res.json())
   .then(companies => {
     companies.forEach(company => {
@@ -20,6 +23,9 @@ fetch("http://localhost:5000/companies")
 
       companyList.appendChild(div);
     });
+  })
+  .catch(() => {
+    alert("Unable to load companies");
   });
 
 function openForm(company) {
@@ -41,14 +47,17 @@ function sendInquiry() {
     city: document.getElementById("city").value
   };
 
-  fetch("http://localhost:5000/send-inquiry", {
+  fetch(`${API_BASE}/send-inquiry`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(data)
   })
-  .then(res => res.json())
-  .then(() => {
-    alert("Inquiry sent successfully");
-    closeForm();
-  });
+    .then(res => res.json())
+    .then(() => {
+      alert("Inquiry sent successfully");
+      closeForm();
+    })
+    .catch(() => {
+      alert("Failed to send inquiry");
+    });
 }

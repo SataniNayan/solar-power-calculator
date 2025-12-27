@@ -8,7 +8,7 @@ function calculateSolar() {
     return;
   }
 
-  fetch("http://localhost:5000/calculate", {
+  fetch("https://solar-power-calculator.onrender.com/calculate", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ area, state, month })
@@ -18,6 +18,6 @@ function calculateSolar() {
       document.getElementById("result").textContent = formatResult(data);
     })
     .catch(() => {
-      alert("Backend not running");
+      alert("Server error. Please try again later.");
     });
 }
